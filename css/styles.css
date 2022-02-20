@@ -978,6 +978,9 @@ span{
     color: var(--main-decoretion-color);
 }
 
+.modal-check-link{
+    text-decoration: underline;
+}
 .mailing-button{
     display: flex;
     justify-content: center;
