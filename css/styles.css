@@ -775,6 +775,7 @@ span{
     border-radius: 50%;
     background-color: transparent;
 }
+.modal-close:hover,
 .modal-close:focus{
     fill:  var(--secondary-decoretion-color);
 }
@@ -798,7 +799,7 @@ span{
     color:var(--text-primary-color);
 }
 
-  .modal-field input:not(:last-child){
+  .modal-field {
     margin-bottom: 10px;
 }
 
@@ -917,13 +918,10 @@ span{
     fill: var(--main-decoretion-color);
   }
 .modal-btm{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     width: 200px;
 
     border: 1px solid transparent;
@@ -986,6 +984,17 @@ span{
     justify-content: center;
     align-items: center;
 
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+
+
+    text-align: center;
+    letter-spacing: 0.06em;
     border: 1px solid transparent;
     padding: 10px 28px 10px 29px;
     cursor: pointer;
