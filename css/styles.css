@@ -798,9 +798,8 @@ span{
     color:var(--text-primary-color);
 }
 
-  .modal-field {
+  .modal-field input:not(:last-child){
     margin-bottom: 10px;
-
 }
 
 .modal-icon {
@@ -827,7 +826,7 @@ span{
 .modal-input{
     outline: none;
     width: 100%;
-    height: 45px;
+    height: 40px;
     border-radius: 5px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     background-color:var(--main-decoretion-color);
@@ -918,10 +917,14 @@ span{
     fill: var(--main-decoretion-color);
   }
 .modal-btm{
+
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin: 30px 165px 32px 163px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
 
     border: 1px solid transparent;
     border-radius: 4px;
@@ -929,6 +932,7 @@ span{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    text-align: center;
 
     color: var(--main-decoretion-color);
     background-color: var(--secondary-decoretion-color);
@@ -941,7 +945,6 @@ span{
 /*--Розсилка-->*/
 .mailing{
     margin-left: 93px;
-    padding: 60px ;
 
 }
 .mailing-title{
@@ -972,7 +975,7 @@ span{
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
+    color: var(--main-decoretion-color);
 }
 
 .mailing-button{
